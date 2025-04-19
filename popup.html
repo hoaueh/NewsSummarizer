@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Article Summarizer</title>
+  <style>
+    body {
+      width: 400px;
+      height: 1000px;
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 10px;
+      box-sizing: border-box;
+    }
+    button {
+      width: 100%;
+      padding: 10px;
+      margin-top: 10px;
+      cursor: pointer;
+    }
+    #summary {
+      width: 100%;
+      height: 400px;
+      margin-top: 10px;
+      padding: 10px;
+      border: 1px solid #ccc;
+      overflow-y: auto;
+      white-space: pre-wrap;
+    }
+  </style>
+</head>
+<body>
+  <h1>Article Summarizer</h1>
+  <button id="summarize-btn">Summarize Article</button>
+  <h2>Summary:</h2>
+  <div id="summary"></div>
+  <script src="popup.js"></script>
+</body>
+</html>
